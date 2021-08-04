@@ -1,0 +1,22 @@
+body {
+  text-align: center;
+}
+
+button {
+  background-color: red;
+  color: white;
+
+  /* 👇 YOUR CODE HERE 👇 */
+}
+
+p {
+  margin: 20px;
+  border-width: 3px;
+  border-color: darkgray;
+}
+
+div {
+  padding: 10px;
+}
+
+p.dotted { border-style: double; }
