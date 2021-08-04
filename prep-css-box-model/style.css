@@ -7,16 +7,15 @@ button {
   color: white;
 
   /* 👇 YOUR CODE HERE 👇 */
-}
+  p {
+    margin: 20px;
+  }
 
-p {
-  margin: 20px;
   border-width: 3px;
   border-color: darkgray;
-}
+  p.dotted { border-style: double; }
 
-div {
-  padding: 10px;
+  div {
+    padding: 10px;
+  }
 }
-
-p.dotted { border-style: double; }
