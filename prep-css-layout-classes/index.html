@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CSS Layout Classes</title>
+  <link rel="stylesheet" href="reset.css">
+  <style>
+    /* stylelint-disable block-no-empty */
+    body {
+      font-family: sans-serif;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .container {
+      max-width: 992px;
+      margin: auto;
+    }
+
+    .row {
+      width: 100%;
+      display: flex;
+    }
+
+    .column {
+      flex-basis: calc(100% / 3);
+      padding-left: 8px;
+      padding-right: 8px;
+    }
+  </style>
+</head>
+<body>
+<!-- Complete the HTML here -->
+  <div class= "container">
+    <div class = "row">
+      <div class = "column">
+        <img src="images/raiders.jpg" alt = "Raiders of the Lost Ark">
+        <h3>"Indiana Jones and the Raiders of the Lost Ark"</h3>
+        <p>A 1981 American action-adventure starring Harrison For and Karen Allen. This movie was directed by Steven Spielberg, based on a story by George Lucas.</p>
+      </div>
+      <div class= "column">
+        <img src="images/temple.jpg" alt = "Temple of Doom">
+        <h3>"Indiana Jones and the Temple of Doom"</h3>
+        <p>A 1984 action adventure starring Harrison Ford and directed by Steven Spielberg. The story follows Indiana Jones as he searches for a msytical stone</p>
+      </div>
+      <div class= "column">
+        <img src="images/crusade.jpg" alt = "The Last Crusade">
+        <h3>"Indiana Jones and the Last Crusade"</h3>
+        <p>A 1989 action adventure Starring Harrison Ford and his quest to find the Holy Grail</p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
